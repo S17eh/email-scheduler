@@ -1,6 +1,6 @@
 const express = require("express");
-const connectDB = require("./config/connection");
-const emailRoutes = require("./routes/emailRoutes");
+const connectDB = require("./src/config/connection");
+const emailRoutes = require("./src/routes/emailRoutes");
 require("dotenv").config();
 
 const app = express();
